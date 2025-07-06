@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AR PRODUCTIONS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #1c1c1c;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+      background: radial-gradient(circle, #333, #111);
+      animation: fadeIn 2s ease;
+    }
+
+    .hero img {
+      width: 200px;
+      height: auto;
+      animation: floatLogo 4s ease-in-out infinite;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-top: 1rem;
+      color: #ffb347;
+    }
+
+    .info {
+      padding: 2rem;
+      background: #222;
+      text-align: center;
+    }
+
+    .info h2 {
+      color: #ffb347;
+    }
+
+    .info p {
+      font-size: 1.2rem;
+    }
+
+    .info a {
+      color: #ffb347;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .info a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes floatLogo {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <img src="logo.png" alt="AR PRODUCTIONS Logo" />
+    <h1>Welcome to AR PRODUCTIONS</h1>
+  </div>
+
+  <div class="info">
+    <h2>Our Address</h2>
+    <p>Flat No, Dove Castle, S-1, 6/14, 1st Main Rd, Logaiah Colony,<br>
+      Saligramam, Chennai, Tamil Nadu 600093</p>
+    <br />
+    <h2>About Us</h2>
+    <p>AR PRODUCTIONS is a creative film production company based in Chennai. We are currently working on our debut project, <a href="sirpi.html">SIRPI</a>, which blends powerful storytelling with stunning visuals.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 AR PRODUCTIONS. All rights reserved.
+  </footer>
+</body>
+</html>
