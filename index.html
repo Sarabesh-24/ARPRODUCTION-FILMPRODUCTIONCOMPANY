@@ -32,10 +32,11 @@
       animation: floatLogo 4s ease-in-out infinite;
     }
 
-    .hero h1 {
+    .moving-text {
       font-size: 3rem;
-      margin-top: 1rem;
       color: #ffb347;
+      animation: floatLogo 4s ease-in-out infinite;
+      margin-top: 1rem;
     }
 
     .quote {
@@ -71,6 +72,13 @@
       text-decoration: underline;
     }
 
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111;
+      color: #999;
+    }
+
     @keyframes fadeIn {
       from {
         opacity: 0;
@@ -90,19 +98,12 @@
         transform: translateY(-20px);
       }
     }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #111;
-      color: #999;
-    }
   </style>
 </head>
 <body>
   <div class="hero">
     <img src="logo.png" alt="AR PRODUCTIONS Logo" />
-    <h1>Welcome to AR PRODUCTIONS</h1>
+    <h1 class="moving-text">AR PRODUCTIONS</h1>
     <p class="quote">
       <strong>Always remember:</strong><br>
       You are beautiful.<br>
@@ -122,7 +123,7 @@
       Saligramam, Chennai, Tamil Nadu 600093</p>
     <br />
     <h2>About Us</h2>
-    <p>AR PRODUCTIONS is a creative film production company based in Chennai. We are currently working on our debut project, <a href="sirpi.html">SIRPI</a>, which blends powerful storytelling with stunning visuals.</p>
+    <p>AR PRODUCTIONS is a creative film production company based in Chennai. We are currently working on our debut project, <a href="sirpi.html">SIRPI</a>.</p>
   </div>
 
   <footer>
